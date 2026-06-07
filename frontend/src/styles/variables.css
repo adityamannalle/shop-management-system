@@ -1,0 +1,60 @@
+:root {
+  /* Core Brand Colors (Modern Indigo) */
+  --primary: #6366f1;
+  --primary-hover: #4f46e5;
+  --white: #ffffff;
+  --danger: #f43f5e;
+  --success: #10b981;
+  --warning: #f59e0b;
+  
+  /* Theme-dependent Colors (Light Professional) */
+  --bg-body: #f8fafc;
+  --bg-card: #ffffff;
+  --bg-sidebar: #ffffff;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --border: #e2e8f0;
+  --table-header: #f8fafc;
+  --table-stripe: #fcfdfe;
+
+  /* Spacing & Sizing */
+  --sidebar-width: 260px;
+  --sidebar-collapsed: 80px;
+  --radius-card: 16px;
+  --radius-std: 12px;
+  --shadow-premium: 0 10px 25px rgba(0, 0, 0, 0.05);
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 48px;
+}
+
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Custom Theme Support for Body */
+body.dark-theme {
+  --bg-body: #0f172a;
+  --bg-card: #1e293b;
+  --bg-sidebar: #1e293b;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --border: #334155;
+  --table-header: #1e293b;
+  --table-stripe: #1e293b;
+}
+
+/* Smooth Theme Switching */
+* {
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-body);
+  color: var(--text-main);
+}
