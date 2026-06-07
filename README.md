@@ -1,59 +1,91 @@
-# Shop Management System
+# 🛒 Shop Management System
 
-A full-stack retail management application designed for smart inventory tracking, professional billing (POS), and detailed sales analytics.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/Frontend-React%2019-blue?logo=react)](https://reactjs.org/)
+[![Node.js](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)](https://nodejs.org/)
+[![MySQL](https://img.shields.io/badge/Database-MySQL-orange?logo=mysql)](https://www.mysql.com/)
 
-## 🚀 Features
+A comprehensive, full-stack retail management solution built for modern businesses. This system streamlines **Inventory Tracking**, **Point of Sale (POS) Billing**, and **Financial Analytics** into a single, intuitive interface.
 
-- **Intuitive Dashboard**: Real-time overview of revenue, orders, and inventory status.
-- **Dynamic Billing (POS)**: Fast checkout with automated GST calculations and professional invoice printing.
-- **Inventory Control**: Comprehensive product management with automated low-stock alerts.
-- **Sales Analytics**: Visualization of sales trends and top-performing products.
-- **Expense Tracking**: Monitor business outflows and net profitability.
-- **Team Management**: Role-based access control (Admin/Staff) for workspace security.
-- **Notifications**: Automated system alerts for stock and operational updates.
+---
+
+## 🌟 Key Modules
+
+### 📊 Dashboard & Analytics
+- **Real-time Overview**: Instant visibility into total revenue, daily sales, and order counts.
+- **Trend Visualization**: Interactive charts showing sales performance over time.
+- **Critical Alerts**: Immediate notification for low-stock items and out-of-stock products.
+
+### 🧾 Smart Billing (POS)
+- **Fast Checkout**: Add products to cart with instant subtotal and tax calculations.
+- **Invoice Generation**: Professional, print-ready invoices for every transaction.
+- **Payment Flexibility**: Support for multiple payment modes (Cash, Card, UPI).
+
+### 📦 Inventory Management
+- **Centralized Catalog**: Detailed product tracking with pricing, descriptions, and stock levels.
+- **Automated Guardrails**: Customizable low-stock limits to prevent sales interruptions.
+- **Dynamic Updates**: Real-time stock deduction upon billing.
+
+### 💰 Expense & Team Tracking
+- **Outflow Monitoring**: Log business expenses by category (Rent, Salaries, Utilities).
+- **Profitability Reports**: Automatically calculate net profit by comparing revenue vs expenses.
+- **Secure Access**: Role-based access control (Admin vs Staff) to protect sensitive data.
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React (v19) + Vite
-- **Backend**: Node.js + Express
-- **Database**: MySQL
-- **Styling**: Tailwind CSS / Vanilla CSS
+- **Frontend**: React 19, Vite, Tailwind CSS, Chart.js
+- **Backend**: Node.js, Express.js
+- **Database**: MySQL (relational structure)
+- **Auth**: JWT (JSON Web Tokens) with Bcrypt encryption
 
-## 📋 Prerequisites
+---
 
-- [Node.js](https://nodejs.org/) (v18 or higher)
-- [MySQL](https://www.mysql.com/)
+## 🚀 Getting Started
 
-## ⚙️ Installation & Setup
+### 📋 Prerequisites
+- **Node.js** (v18+)
+- **MySQL Server**
 
-1. **Clone the repository**
+### ⚙️ Installation
+
+1. **Clone & Enter**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/shop-management-system.git
+   git clone https://github.com/adityamannalle/shop-management-system.git
    cd shop-management-system
    ```
 
-2. **Install Dependencies**
+2. **Quick Install**
    ```bash
    npm run install:all
    ```
 
-3. **Database Configuration**
-   - Create a MySQL database named `shop_db`.
+3. **Database Setup**
+   - Create a database named `shop_db`.
    - Import the schema from `backend/database/schema.sql`.
-   - Update the database credentials in `backend/config/db.js` or via a `.env` file.
+   - Update `backend/config/db.js` with your MySQL credentials.
 
-4. **Run the Application**
+4. **Launch**
    ```bash
-   # Run both frontend and backend concurrently
    npm run dev
    ```
 
-## 🔐 Default Credentials
-- **Email**: `admin@gmail.com`
-- **Password**: `admin123`
+---
 
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 🔐 Default Credentials
+| Role | Email | Password |
+| :--- | :--- | :--- |
+| **Admin** | `admin@gmail.com` | `admin123` |
 
 ---
-Developed by **Aditya**
+
+## 📸 Screenshots
+*(Add your project screenshots here to make it look even better!)*
+
+---
+
+## 📄 License
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+Developed with ❤️ by **[Aditya Mannalle](https://github.com/adityamannalle)**
