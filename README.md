@@ -74,9 +74,9 @@ A comprehensive, full-stack retail management solution built for modern business
 ---
 
 ## 🔐 Default Credentials
-| Role | Email | Password |
-| :--- | :--- | :--- |
-| **Admin** | `admin@gmail.com` | `admin123` |
+For security, default login credentials are provided in the **[INSTALL.md](backend/scripts/createAdmin.js)** file or within the initial database seed script. 
+
+> **Note:** Always change the default password after your first login in a production environment.
 
 ---
 
