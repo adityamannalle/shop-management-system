@@ -81,7 +81,6 @@ For security, default login credentials are provided in the **[INSTALL.md](backe
 ---
 
 ## 📸 Screenshots
-*(Add your project screenshots here to make it look even better!)*
 
 ---
 
